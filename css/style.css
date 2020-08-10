@@ -1,0 +1,71 @@
+body {
+  background-color: #1a1a1d;
+  font-family: "Pangolin", cursive;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 5%;
+  height: 5%;
+}
+
+.container {
+  max-width: 40%;
+  background: #efe7dd
+    url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg")
+    repeat;
+  margin: auto;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: #2979ff;
+  width: 45%;
+  padding: 8px;
+  margin: 17px 12px;
+}
+.left {
+  float: left;
+  clear: both;
+  border-radius: 0px 5px 5px 5px;
+  background: #ffffff;
+}
+.right {
+  float: right;
+  clear: both;
+  border-radius: 5px 0px 5px 5px;
+  background: #e1ffc7;
+}
+
+.send-message-container {
+  display: block;
+  margin: auto;
+  max-width: 40%;
+}
+input:click {
+  border: none;
+}
+
+#messageInp {
+  font-family: "Pangolin", cursive;
+  display: inline;
+  text-align: center;
+  max-width: 100%;
+  width: 75%;
+  outline: none;
+  border: 2px solid white;
+  height: 34px;
+}
+
+.btn-send {
+  font-family: "Pangolin", cursive;
+  display: inline;
+  text-align: center;
+  width: 22%;
+  margin-left: 4.5px;
+  outline: none;
+  border: 2px solid rgb(239, 239, 239);
+  height: 40px;
+}
